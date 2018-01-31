@@ -2,6 +2,7 @@ $box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
 $padding-base: 12px;
 $success-color: rgba(76, 175, 80, .9);
 $danger-color: rgba(244, 67, 54, .8);
+$warning-color: rgba(255, 125, 25, .9);
 $text-color: rgba(0, 0, 0, .8);
 $border-radius: 1px;
 
@@ -21,6 +22,9 @@ $border-radius: 1px;
         }
         &.success {
           background: $success-color;
+        }
+        &.warning {
+          background: $warning-color;
         }
     }
 }
